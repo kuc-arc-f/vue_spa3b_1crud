@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="task_create_wrap">
-            <router-link :to="'/doxie_tasks'" class="btn btn-outline-primary mt-2">Back
+            <router-link :to="'/dexie_tasks'" class="btn btn-outline-primary mt-2">Back
             </router-link>
             <h3>IndexTasks - new</h3>
             <hr class="mt-2 mb-2" />
@@ -51,7 +51,7 @@ export default {
                 created_at: new Date(),
             }
             db.tasks.add( task)
-            this.$router.push('/doxie_tasks')            
+            this.$router.push('/dexie_tasks')            
         },
     }
 }

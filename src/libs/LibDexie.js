@@ -1,4 +1,5 @@
 import Dexie from 'dexie';
+import LibCommon from '@/libs/LibCommon';
 
 //
 export default {
@@ -20,4 +21,15 @@ export default {
         });
         return ret
     },    
+    get_reverse_items: function(items){
+        var data =[]
+        items.forEach(function(item){
+            var date = item.created_at
+            date = LibCommon.formatDate(date, 'YYYY-MM-DD hh:mm')
+            item.created_at = date
+//console.log(date)
+            data.unshift(item)                        
+        });        
+        return data
+    },
 }

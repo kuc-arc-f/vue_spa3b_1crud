@@ -24,7 +24,7 @@ import indexTasksShow from '../components/IndexTasks/show'
 import indexTasksEdit from '../components/IndexTasks/edit'
 */
 
-/* doxie */
+/* dexie */
 import DexieTasksTest from '../components/DexieTasks/test'
 import DexieTasksTest2 from '../components/DexieTasks/test2'
 import DexieTasksTest3 from '../components/DexieTasks/test3'
@@ -62,14 +62,14 @@ export default new Router({
 		{ path: '/index_tasks/edit/:id', component: indexTasksEdit },
 		*/
 		/* dexie */
-		{ path: '/doxie_tasks/test', component: DexieTasksTest },
-		{ path: '/doxie_tasks/test2', component: DexieTasksTest2 },
-		{ path: '/doxie_tasks/test3', component: DexieTasksTest3 },
-		{ path: '/doxie_tasks/test4', component: DexieTasksTest4 },
-		{ path: '/doxie_tasks', component: DexieTasks },
-		{ path: '/doxie_tasks/new', component: DexieTasksNew },
-		{ path: '/doxie_tasks/show/:id', component: DexieTasksShow },
-		{ path: '/doxie_tasks/edit/:id', component: DexieTasksEdit },
+		{ path: '/dexie_tasks/test', component: DexieTasksTest },
+		{ path: '/dexie_tasks/test2', component: DexieTasksTest2 },
+		{ path: '/dexie_tasks/test3', component: DexieTasksTest3 },
+		{ path: '/dexie_tasks/test4', component: DexieTasksTest4 },
+		{ path: '/dexie_tasks', component: DexieTasks },
+		{ path: '/dexie_tasks/new', component: DexieTasksNew },
+		{ path: '/dexie_tasks/show/:id', component: DexieTasksShow },
+		{ path: '/dexie_tasks/edit/:id', component: DexieTasksEdit },
 
 	] 
 })

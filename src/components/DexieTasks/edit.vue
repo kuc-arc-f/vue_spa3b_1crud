@@ -1,6 +1,6 @@
 <template lang="html">
     <div class="task_edit_wrap">
-        <router-link :to="'/doxie_tasks'" class="btn btn-outline-primary mt-2">Back
+        <router-link :to="'/dexie_tasks'" class="btn btn-outline-primary mt-2">Back
         </router-link>
         <hr class="mt-2 mb-2" />
         <h3>Tasks - edit</h3>        
@@ -72,12 +72,12 @@ console.log( this.title )
                 title: this.title,
                 content: this.content,
             });
-            this.$router.push('/doxie_tasks')
+            this.$router.push('/dexie_tasks')
         },        
         delete_item(id){
 console.log( id )
             db.tasks.delete(parseInt(id) );
-            this.$router.push('/doxie_tasks')
+            this.$router.push('/dexie_tasks')
         },
     }
 }

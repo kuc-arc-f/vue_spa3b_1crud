@@ -10,7 +10,7 @@
                     <router-link  to="/" class="nav-link">Home</router-link>
                 </li>
                 <li class="nav-item active">
-                    <router-link  to="/doxie_tasks" class="nav-link">Tasks</router-link>
+                    <router-link  to="/dexie_tasks" class="nav-link">Tasks</router-link>
                 </li>
                 <!--
                 <li class="nav-item active">
